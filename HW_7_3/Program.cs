@@ -28,7 +28,7 @@ for (int j = 0; j < array.GetLength(1); j++)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
-    avrg += array [i, j];
+        avrg += array [i, j];
     }
     avrg = avrg / array.GetLength(0);
     Console.Write(avrg + " ");
